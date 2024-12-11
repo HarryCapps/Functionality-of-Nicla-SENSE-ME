@@ -1,7 +1,7 @@
 #include "Arduino.h"
 #include "Arduino_BHY2.h"
 
-// Initialize the BSEC sensor object
+// Initialise the BSEC sensor object
 SensorBSEC bsec(SENSOR_ID_BSEC);
 
 const unsigned long INTERVAL = 30000; // 30-second interval
@@ -9,11 +9,11 @@ const int MAX_READINGS = 120;         // Stop after 120 readings
 
 void setup()
 {
-  Serial.begin(115200);       // Initialize Serial communication
+  Serial.begin(115200);       // Initialise Serial communication
   while (!Serial);            // Wait for Serial monitor to be ready
 
-  BHY2.begin();               // Initialize the BHY2 sensor hub
-  bsec.begin();               // Initialize the BSEC sensor
+  BHY2.begin();               // Initialise the BHY2 sensor hub
+  bsec.begin();               // Initialise the BSEC sensor
 }
 
 void loop()
