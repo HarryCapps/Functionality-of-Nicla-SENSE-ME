@@ -27,7 +27,7 @@ Python (Anaconda is recommended use. For installation, click free download via t
 
 The hardware requirements for this project are as follows:
 
-Arduino Nicla Sense ME - 
+Arduino Nicla Sense ME - https://store.arduino.cc/products/nicla-sense-me
 
 # Installation
 
