@@ -35,19 +35,19 @@ If using Anaconda, the pyserial module must be installed.
 
 If using Windows:
 
-Open Anaconda Prompt.
+1. Open Anaconda Prompt.
 
-Type conda install pyserial.
+2. Type conda install pyserial.
 
-Press Enter.
+3. Press Enter.
 
 If using macOS:
 
-Open Terminal.
+1. Open Terminal.
 
-Type conda install pyserial.
+2. Type conda install pyserial.
 
-Press Enter.
+3. Press Enter.
 
 Next, open Arduino IDE and navigate to Tools --> Board --> Board Manager, then install the following:
 
