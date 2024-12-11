@@ -57,7 +57,7 @@ A CSV file containing metadata for the gyro sensor measurements.
 
 CHEM501_GYRO_DATA.db
 
-SQLite database where gyroscope data that was used for the wave detection parameters. To access this data open raw file with VSCode or other code editor and navigate to the gyroscope_data table (11750 rows).
+SQLite database containing gyroscope data that was used for the wave detection parameters. To access this data open raw file with VSCode or other code editor and navigate to the gyroscope_data table (11750 rows).
 
 README.md
 
