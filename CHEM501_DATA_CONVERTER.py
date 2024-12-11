@@ -3,10 +3,10 @@ import csv
 import time
 import os
 
-# Specify your serial port and baud rate
-SERIAL_PORT = "/dev/cu.usbmodemEBBED8AD2"  # Replace with your Arduino's serial port
-BAUD_RATE = 115200  # This should match the baud rate in your Arduino sketch
-CSV_FILE = os.path.expanduser("~/renamethis_data.csv")  # Save the CSV file in the user's home directory
+# Name of serial port and baud rate
+SERIAL_PORT = "/dev/cu.usbmodemEBBED8AD2"  # My personal serial port
+BAUD_RATE = 115200  # baud rate in the Arduino sketch
+CSV_FILE = os.path.expanduser("~/renamethis_data.csv")  # CSV file in the user's directory
 
 # Attempt to open the serial connection to the Arduino
 try:
@@ -20,7 +20,7 @@ except Exception as e:
 with open(CSV_FILE, mode='w', newline='') as file:
     csv_writer = csv.writer(file)  # Create a CSV writer object
 
-    # Write the header row to the CSV file
+    # The header row to the CSV file
     csv_writer.writerow(["Timestamp", "Data"])
 
     print(f"Logging data to {CSV_FILE}. Press Ctrl+C to stop.")
@@ -37,7 +37,7 @@ with open(CSV_FILE, mode='w', newline='') as file:
                 # Write the timestamp and data to the CSV file
                 csv_writer.writerow([timestamp, line])
 
-                # Ensure the data is written to disk immediately
+                # Ensures the data is written to disk immediately
                 file.flush()
 
                 # Print the logged data to the console for real-time monitoring
