@@ -3,7 +3,7 @@ import csv
 import time
 import os
 
-# Name of serial port and baud rate
+# Name of serial port and baud rate to connect to Arduino IDE serial monitor
 SERIAL_PORT = "/dev/cu.usbmodemEBBED8AD2"  # My personal serial port
 BAUD_RATE = 115200  # baud rate in the Arduino sketch
 CSV_FILE = os.path.expanduser("~/renamethis_data.csv")  # CSV file in the user's directory
