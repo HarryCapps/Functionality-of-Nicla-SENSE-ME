@@ -79,6 +79,7 @@ In order to collect the wanted data using the software and hardware listed above
 If there are any questions or additional information, please get in touch:
 
 Harry Capps (sghcapps@liverpool.ac.uk)
+
 Ben Rogers (sgbroger@liverpool.ac.uk)
 
 # License
