@@ -1,0 +1,14 @@
+Table 1
+Metadata for Gyro Sensor,
+Sensor Name,Gyroscope on Nicla Sense ME.
+Data Attributes,X-axis rotation: Measures angular velocity along the x-axis. 
+,Y-axis rotation: Measures angular velocity along the y-axis. 
+,Z-axis rotation: Measures angular velocity along the z-axis. 
+,Time: Timestamp when recordings were obtained.
+Units,Angular Velocity (°/s).
+Sampling Rate,Every 100ms.
+Application Context,Use: Hand wave recognition.
+,Data recorded for wave gestures to identify peaks in motion. 
+Environment,Indoor setting during testing (Central Teaching Hub). 
+,Device held in palm of hand while performing gestures.
+Output Format,Stored directly into SQLite database and then exported as a csv file.
