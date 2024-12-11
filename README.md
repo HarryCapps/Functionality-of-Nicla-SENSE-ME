@@ -29,6 +29,14 @@ CHEM501_PROJECT_GYRO_WAVE_CODE.ino
 
 C++ code used for the Gyroscope Sensor.
 
+CHEM501_GYRO_DATABASE.py
+
+Python code used to create a database for the gyroscope using SQL.
+
+CHEM501_GYRO_DATA_VISUALISATION.ipynb
+
+A jupyter notebook file with mulistep code to visualise gyroscopic data.
+
 CHEM501_DATA_CONVERTER.py
 
 Python code used to convert the data given by BSEC and BLE sensor into a csv file.
