@@ -45,10 +45,13 @@ Press Enter.
 Next, open Arduino IDE and navigate to Tools --> Board --> Board Manager, then install the following:
 
 Arduino Mbed OS Nicla Boards
+
 In the Arduino IDE, navigate to Tools --> Manage Libraries, and install the following:
 
 Arduino_BHY2
+
 Arduino_BHY2Host
+
 ArduinoBLE
 
 # Usage
