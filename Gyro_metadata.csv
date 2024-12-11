@@ -1,5 +1,4 @@
-Table 1
-Metadata for Gyro Sensor,
+Table 1 - Metadata for gyro sensor
 Sensor Name,Gyroscope on Nicla Sense ME.
 Data Attributes,X-axis rotation: Measures angular velocity along the x-axis. 
 ,Y-axis rotation: Measures angular velocity along the y-axis. 
