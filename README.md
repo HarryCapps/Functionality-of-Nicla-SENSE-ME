@@ -11,7 +11,7 @@ This repository contains ----- sets of code:
 
 CHEM501_PROJECT_BLE_CODE.ino
 
-C++ code used for the BLE Sensor.
+C++ code used to operate the BLE Sensor.
 
 CHEM501_PROJECT_BLE_DATA_VISUALISATION.py
 
@@ -19,7 +19,7 @@ Python code created to create graphs for BLE.
 
 CHEM501_PROJECT_BSEC_CODE.ino
 
-C++ code used for the BSEC Sensor.
+C++ code used to operate the BSEC Sensor.
 
 CHEM501_PROJECT_BSEC_DATA_VISUALISATION.py
 
@@ -31,7 +31,7 @@ C++ code used for the Gyroscope Sensor.
 
 CHEM501_DATA_CONVERTER.py
 
-Python code used to convert the data given by each sensor into a csv file.
+Python code used to convert the data given by BSEC and BLE sensor into a csv file.
 
 README.md
 
