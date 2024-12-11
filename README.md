@@ -51,7 +51,9 @@ CHEM501_PLAINDATA_BSEC_BLE.zip
 
 Series of CSV files containing exmaples of basic data readings from BSEC and BLE sensor.
 
+Gyro_metadata.csv
 
+A CSV file containing metadata for the gyro sensor measurements.
 
 README.md
 
