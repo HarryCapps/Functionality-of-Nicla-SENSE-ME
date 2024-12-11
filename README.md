@@ -9,11 +9,33 @@ Hi! We’re Harry and Ben, and this is our CHEM501 project exploring the overall
 
 This repository contains ----- sets of code:
 
+CHEM501_PROJECT_BLE_CODE.ino
 
+C++ code used for the BLE Sensor.
 
+CHEM501_PROJECT_BLE_DATA_VISUALISATION.py
 
+Python code created to create graphs for BLE.
 
+CHEM501_PROJECT_BSEC_CODE.ino
 
+C++ code used for the BSEC Sensor.
+
+CHEM501_PROJECT_BSEC_DATA_VISUALISATION.py
+
+Python code created to create graphs for BLE.
+
+CHEM501_PROJECT_GYRO_WAVE_CODE.ino
+
+C++ code used for the Gyroscope Sensor.
+
+CHEM501_DATA_CONVERTER.py
+
+Python code used to convert the data given by each sensor into a csv file.
+
+README.md
+
+requirements.txt
 
 # Requirements
 
