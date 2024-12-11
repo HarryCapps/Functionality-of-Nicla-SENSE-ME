@@ -9,7 +9,7 @@ Hi! We’re Harry and Ben, and this is our CHEM501 project exploring the overall
 
 # Files
 
-This repository contains the following 10 sets of code:
+This repository contains the following 12 sets of code:
 
 CHEM501_PROJECT_BLE_CODE.ino
 
@@ -42,6 +42,14 @@ A jupyter notebook file with mulistep code to visualise gyroscopic data.
 CHEM501_DATA_CONVERTER.py
 
 Python code used to convert the data given by BSEC and BLE sensor into a csv file.
+
+CHEM501_METADATA_BSEC_BLE.zip
+
+Series of CSV files containing Metadata for BSEC and BLE Sensor.
+
+CHEM501_PLAINDATA_BSEC_BLE.zip
+
+Series of CSV files containing exmaples of basic data readings from BSEC and BLE sensor.
 
 README.md
 
