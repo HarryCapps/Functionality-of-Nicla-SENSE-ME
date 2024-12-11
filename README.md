@@ -9,7 +9,7 @@ Hi! We’re Harry and Ben, and this is our CHEM501 project exploring the overall
 
 # Files
 
-This repository contains the following 12 sets of code:
+This repository contains the following 12 files:
 
 CHEM501_PROJECT_BLE_CODE.ino
 
