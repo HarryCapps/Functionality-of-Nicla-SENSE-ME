@@ -34,14 +34,21 @@ Arduino Nicla Sense ME - https://store.arduino.cc/products/nicla-sense-me
 If using Anaconda, the pyserial module must be installed.
 
 If using Windows:
+
 Open Anaconda Prompt.
+
 Type conda install pyserial.
+
 Press Enter.
 
 If using macOS:
+
 Open Terminal.
+
 Type conda install pyserial.
+
 Press Enter.
+
 Next, open Arduino IDE and navigate to Tools --> Board --> Board Manager, then install the following:
 
 Arduino Mbed OS Nicla Boards
