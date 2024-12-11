@@ -59,9 +59,9 @@ data_set_1 = {
 
 }   
 
-# Create the DataFrame   
+# DataFrame Creation   
 df = pd.DataFrame(data_set_1)    
-# Define the color mapping   
+# Colour mapping Defined  
 color_map = {0: 'red', 1: 'blue', 2: 'green', 3: 'orange'}   
   
 # Calculate the line of best fit   
