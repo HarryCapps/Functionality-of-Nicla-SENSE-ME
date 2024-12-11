@@ -99,9 +99,10 @@ In order to collect the wanted data using the software and hardware listed above
 2. The Arduino IDE software application is opened.
 3. Choose a sensor to test.
 4. i.e Run CHEM501_PROJECT_BSEC_CODE.ino in Arduino IDE ensuring to keep the serial monitor closed.
-5. Run CHEM501_DATA_CONVERTER.py (or CHEM501_GYRO_DATABASE.py for Gyro) in VSCode to allow the data to be stored in a csv file for BSEC and BLE (or Database for Gyroscope).
-6. Use the corresponding Visualisation Codes to gain graphical representations of each Sensor.
-7. 
+5. Virtual Studio Code should be open and ready.
+6. Run CHEM501_DATA_CONVERTER.py (or CHEM501_GYRO_DATABASE.py for Gyro) in VSCode alongside the Arduino IDE to allow the data to be stored in a csv file for BSEC and BLE (or Database for Gyroscope).
+8. Use the Respectable Visualisation Codes to gain graphical representations of each Sensor.
+
 # Authors
 
 If there are any questions or additional information, please get in touch:
